@@ -1,0 +1,41 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: $h1;
+}
+li, button, label, input, p, a{
+    font-size: $text;
+}
+h2{
+    font-size: $h2
+}
+h3{
+    font-size: $h3;
+    font-weight: normal;
+}
+h4,h5{
+    font-size: $h4;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: $grey-text
+
+}
+

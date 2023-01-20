@@ -1,0 +1,98 @@
+@import "global";
+
+.about{
+    min-height: 90vh;
+    display: flex;
+    @include flex(center, space-around, row);
+    // flex-wrap: wrap;
+    padding: 2rem;
+    .personal{
+        flex: 1 1 110rem;
+        
+        .personal-contact{
+            padding-left: 5rem;
+            h3{
+                text-align: center;
+                color: white;
+                background: $grey-text;
+                border-radius: 1rem;
+            }
+            ul{
+                list-style: none;
+                li{
+                    margin: .7rem;
+                }
+            }
+            margin: 2rem;;
+        }
+        .personal-text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 2rem;
+            img{
+                max-width: 70rem;
+            }
+            h3{
+                padding: 5rem;
+                font-size: 4rem;
+                font-weight: 450;
+                color: $grey-text;
+            }
+        }
+    }
+    
+
+    .cu{
+
+        ul{
+            list-style: none;
+            li{
+                
+                margin-top: 1rem;
+            }
+            span{
+                color: $grey-text;
+                font-size: 2rem;
+            }
+        }
+    }
+    .resume{
+        button{
+            margin-top: 2rem;
+            border-radius: 2rem;
+            padding: 2rem;
+            border: none;
+            transition: background 0.5s ease-in-out;
+            cursor: pointer;
+            background: $grey-text;
+            a{
+                color: white;
+            }
+        }
+        button:hover{
+            background: grey;
+        }
+    }
+
+
+
+
+
+
+
+
+    // .personal-text{
+    //     background: rgb(209, 113, 113);
+    // }
+    // .personal-contact{
+    //     background: red;
+    // }
+    // .cu{
+    //     background: rgb(134, 134, 232);
+    // }
+    // .resume{
+    //     background: blue;
+    
+}

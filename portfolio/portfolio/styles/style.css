@@ -1,0 +1,403 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.7rem;
+}
+
+li, button, label, input, p, a {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h4, h5 {
+  font-size: 2rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #2c2c2c;
+}
+
+.main-head {
+  width: 95%;
+  margin: 0 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  min-height: 10vh;
+  width: 60%;
+  flex-wrap: wrap;
+}
+nav .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex: 1 1 10rem;
+  margin: 0rem 2rem;
+}
+nav .logo h1 {
+  margin: 2rem;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex: 1 1 40rem;
+  list-style: none;
+}
+
+.intro {
+  min-height: 90vh;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.intro h2 {
+  font-size: 4rem;
+  padding-top: 2rem;
+  color: #2c2c2c;
+  background: linear-gradient(90deg, rgb(168, 186, 234) 0%, rgb(16, 60, 172) 50%, rgb(25, 41, 83) 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  display: inline-block;
+}
+.intro h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 2rem 0rem;
+}
+.intro p {
+  padding-top: 2rem;
+  color: #2c2c2c;
+}
+
+.splash {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 50%;
+  z-index: -1;
+}
+
+.intro-social {
+  margin-top: 4rem;
+}
+.intro-social a {
+  margin-right: 2rem;
+}
+
+.intro-text, .intro-img {
+  flex: 1 1 40rem;
+}
+
+.active {
+  background: #2c2c2c;
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.7rem;
+}
+
+li, button, label, input, p, a {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h4, h5 {
+  font-size: 2rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #2c2c2c;
+}
+
+.projects {
+  width: 90%;
+  margin: auto;
+  min-height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.photo {
+  flex: 1 1 50rem;
+}
+.photo h2 {
+  font-size: 3rem;
+  margin: 5rem;
+}
+.photo img {
+  max-width: 50rem;
+  height: auto;
+}
+
+.buff {
+  flex: 1 1 50rem;
+}
+.buff h2 {
+  font-size: 3rem;
+  margin: 5rem;
+}
+.buff img {
+  max-width: 50rem;
+  height: auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.7rem;
+}
+
+li, button, label, input, p, a {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h4, h5 {
+  font-size: 2rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #2c2c2c;
+}
+
+.about {
+  min-height: 90vh;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+  flex-direction: row;
+  padding: 2rem;
+}
+.about .personal {
+  flex: 1 1 110rem;
+}
+.about .personal .personal-contact {
+  padding-left: 5rem;
+  margin: 2rem;
+}
+.about .personal .personal-contact h3 {
+  text-align: center;
+  color: white;
+  background: #2c2c2c;
+  border-radius: 1rem;
+}
+.about .personal .personal-contact ul {
+  list-style: none;
+}
+.about .personal .personal-contact ul li {
+  margin: 0.7rem;
+}
+.about .personal .personal-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+.about .personal .personal-text img {
+  max-width: 70rem;
+}
+.about .personal .personal-text h3 {
+  padding: 5rem;
+  font-size: 4rem;
+  font-weight: 450;
+  color: #2c2c2c;
+}
+.about .cu ul {
+  list-style: none;
+}
+.about .cu ul li {
+  margin-top: 1rem;
+}
+.about .cu ul span {
+  color: #2c2c2c;
+  font-size: 2rem;
+}
+.about .resume button {
+  margin-top: 2rem;
+  border-radius: 2rem;
+  padding: 2rem;
+  border: none;
+  transition: background 0.5s ease-in-out;
+  cursor: pointer;
+  background: #2c2c2c;
+}
+.about .resume button a {
+  color: white;
+}
+.about .resume button:hover {
+  background: grey;
+}
+
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 53%;
+  }
+  .splash {
+    display: none;
+  }
+  nav {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 754px) {
+  html {
+    font-size: 45%;
+  }
+  .main-head {
+    width: 100%;
+  }
+  nav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 1 20rem;
+    margin-top: 2rem;
+  }
+  nav ul {
+    flex: 1 1 60rem;
+    margin: 2rem;
+  }
+  .intro-text {
+    margin-top: 5rem;
+    text-align: center;
+  }
+  .intro-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .intro-social a {
+    margin: 2rem;
+  }
+  .photo img {
+    width: 100%;
+    height: 100%;
+  }
+  .about {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .about .personal .personal-text img {
+    max-width: 40rem;
+  }
+  .about .personal .personal-text h3 {
+    font-size: 3rem;
+  }
+  .about .class {
+    margin-top: 2rem;
+    padding-left: 7rem;
+  }
+}/*# sourceMappingURL=style.css.map */
