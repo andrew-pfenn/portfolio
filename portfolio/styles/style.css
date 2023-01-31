@@ -4,6 +4,9 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #000000;
+  opacity: 0.9;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #000000 40px), repeating-linear-gradient(rgba(39, 39, 39, 0.3333333333), #272727);
 }
 
 * {
@@ -43,7 +46,7 @@ h4, h5 {
 a {
   text-decoration: none;
   font-size: 2rem;
-  color: #2c2c2c;
+  color: #ebebe3;
 }
 
 .main-head {
@@ -70,6 +73,7 @@ nav .logo {
 }
 nav .logo h1 {
   margin: 2rem;
+  color: #ebebe3;
 }
 nav ul {
   display: flex;
@@ -93,21 +97,17 @@ nav ul {
 .intro h2 {
   font-size: 4rem;
   padding-top: 2rem;
-  color: #2c2c2c;
-  background: linear-gradient(90deg, rgb(168, 186, 234) 0%, rgb(16, 60, 172) 50%, rgb(25, 41, 83) 100%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-          background-clip: text;
-  display: inline-block;
+  color: #ebebe3;
 }
 .intro h3 {
   font-size: 3rem;
   font-weight: bold;
   padding: 2rem 0rem;
+  color: #f6d8ae;
 }
 .intro p {
   padding-top: 2rem;
-  color: #2c2c2c;
+  color: #ebebe3;
 }
 
 .splash {
@@ -130,8 +130,8 @@ nav ul {
 }
 
 .active {
-  background: #2c2c2c;
-  color: white;
+  background: #f6d8ae;
+  color: #272727;
   padding: 1rem 3rem;
   border-radius: 2rem;
 }
@@ -142,6 +142,9 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #000000;
+  opacity: 0.9;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #000000 40px), repeating-linear-gradient(rgba(39, 39, 39, 0.3333333333), #272727);
 }
 
 * {
@@ -181,7 +184,7 @@ h4, h5 {
 a {
   text-decoration: none;
   font-size: 2rem;
-  color: #2c2c2c;
+  color: #ebebe3;
 }
 
 .projects {
@@ -226,6 +229,9 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #000000;
+  opacity: 0.9;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #000000 40px), repeating-linear-gradient(rgba(39, 39, 39, 0.3333333333), #272727);
 }
 
 * {
@@ -265,7 +271,7 @@ h4, h5 {
 a {
   text-decoration: none;
   font-size: 2rem;
-  color: #2c2c2c;
+  color: #ebebe3;
 }
 
 .about {
@@ -284,16 +290,11 @@ a {
   padding-left: 5rem;
   margin: 2rem;
 }
-.about .personal .personal-contact h3 {
-  text-align: center;
-  color: white;
-  background: #2c2c2c;
-  border-radius: 1rem;
-}
 .about .personal .personal-contact ul {
   list-style: none;
 }
 .about .personal .personal-contact ul li {
+  color: #f6d8ae;
   margin: 0.7rem;
 }
 .about .personal .personal-text {
@@ -304,43 +305,51 @@ a {
   margin: 2rem;
 }
 .about .personal .personal-text img {
-  max-width: 70rem;
+  max-width: 15rem;
 }
 .about .personal .personal-text h3 {
   padding: 5rem;
   font-size: 3rem;
   font-weight: 450;
-  color: #2c2c2c;
+  color: #ebebe3;
+}
+.about .cu h4 {
+  color: #f6d8ae;
 }
 .about .cu ul {
   list-style: none;
 }
 .about .cu ul li {
+  color: #ebebe3;
   margin-top: 1rem;
 }
 .about .cu ul span {
-  color: #2c2c2c;
+  color: #707070;
   font-size: 2rem;
 }
 .about .resume button {
   margin-top: 2rem;
-  border-radius: 2rem;
-  padding: 2rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  opacity: 1;
   border: none;
   transition: background 0.5s ease-in-out;
   cursor: pointer;
-  background: #2c2c2c;
+  background: #f6d8ae;
 }
 .about .resume button a {
-  color: white;
+  color: #272727;
 }
 .about .resume button:hover {
-  background: grey;
+  background: #96705b;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1380px) {
   html {
-    font-size: 53%;
+    font-size: 51%;
+  }
+  nav .logo img {
+    max-width: 5rem;
   }
 }
 @media screen and (max-width: 960px) {
@@ -400,7 +409,7 @@ a {
     flex-wrap: wrap;
   }
   .about .personal .personal-text img {
-    max-width: 40rem;
+    max-width: 9rem;
   }
   .about .personal .personal-text h3 {
     font-size: 3rem;

@@ -6,6 +6,12 @@ $text: 2.5rem;
 $gradient: linear-gradient(90deg, rgba(168,186,234,1) 0%, rgba(16,60,172,1) 50%, rgba(25,41,83,1) 100%);
 $background-color: #154353;
 $grey-text: #2c2c2c;
+$new-color: #ebebe3;
+$raisin: #272727;
+$chestnut: #96705b;
+$champagne: #f6d8ae;
+$ice: #84acce;
+$light-blue: #3f88c5;
 
 // @include flex() wherever you want to use
 @mixin flex($justify, $align, $direction){
@@ -20,9 +26,16 @@ $grey-text: #2c2c2c;
 @import "projects";
 @import "about";
 
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 1380px){
     html{
-        font-size: 53%;
+        font-size: 51%;
+    }
+    nav{
+        .logo{
+            img{
+                max-width: 5rem;
+            }
+        }
     }
 }
 
@@ -37,6 +50,7 @@ $grey-text: #2c2c2c;
     nav{
         width: 100%;
     }
+
 }
 
 @media screen and (max-width: 754px){
@@ -85,7 +99,7 @@ $grey-text: #2c2c2c;
         .personal{
             .personal-text{
                 img{
-                    max-width: 40rem;
+                    max-width: 9rem;
                 }
                 h3{
                     font-size: 3rem;

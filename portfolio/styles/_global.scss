@@ -3,6 +3,10 @@ html{
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    // background: $raisin;
+    background-color: #000000;
+opacity: 0.9;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 40px ), repeating-linear-gradient( #27272755, #272727 );
 }
 *{
     margin: 0;
@@ -17,7 +21,7 @@ li, button, label, input, p, a{
     font-size: $text;
 }
 h2{
-    font-size: $h2
+    font-size: $h2;
 }
 h3{
     font-size: $h3;
@@ -35,7 +39,7 @@ h4,h5{
 a{
     text-decoration: none;
     font-size: 2rem;
-    color: $grey-text
+    color: $new-color;
 
 }
 

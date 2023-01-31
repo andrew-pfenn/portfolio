@@ -11,15 +11,10 @@
         
         .personal-contact{
             padding-left: 5rem;
-            h3{
-                text-align: center;
-                color: white;
-                background: $grey-text;
-                border-radius: 1rem;
-            }
             ul{
                 list-style: none;
                 li{
+                    color: $champagne;
                     margin: .7rem;
                 }
             }
@@ -32,28 +27,30 @@
             align-items: center;
             margin: 2rem;
             img{
-                max-width: 70rem;
+                max-width: 15rem;
             }
             h3{
                 padding: 5rem;
                 font-size: 3rem;
                 font-weight: 450;
-                color: $grey-text;
+                color: $new-color
             }
         }
     }
     
 
     .cu{
-
+        h4{
+            color: $champagne;
+        }
         ul{
             list-style: none;
             li{
-                
+                color: $new-color;
                 margin-top: 1rem;
             }
             span{
-                color: $grey-text;
+                color: #707070;
                 font-size: 2rem;
             }
         }
@@ -61,18 +58,19 @@
     .resume{
         button{
             margin-top: 2rem;
-            border-radius: 2rem;
-            padding: 2rem;
+            border-radius: 1rem;
+            padding: 1rem;
+            opacity: 1;
             border: none;
             transition: background 0.5s ease-in-out;
             cursor: pointer;
-            background: $grey-text;
+            background: $champagne;
             a{
-                color: white;
+                color: $raisin;
             }
         }
         button:hover{
-            background: grey;
+            background: $chestnut;
         }
     }
 

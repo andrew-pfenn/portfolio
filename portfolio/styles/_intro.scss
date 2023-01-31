@@ -13,6 +13,7 @@ nav{
         flex: 1 1 10rem;
         h1{
             margin: 2rem;
+            color: $new-color;
         }
         margin: 0rem 2rem;
     }
@@ -32,20 +33,21 @@ nav{
     h2{
         font-size: 4rem;
         padding-top: 2rem;
-        color: $grey-text;
-        background: $gradient;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        display: inline-block;
+        color: $new-color;
+        // background: $gradient;
+        // -webkit-text-fill-color: transparent;
+        // background-clip: text;
+        // display: inline-block;
     }
     h3{
         font-size: 3rem;
         font-weight: bold;
         padding: 2rem 0rem;
+        color: $champagne;
     }
     p{
         padding-top: 2rem;
-        color: $grey-text;
+        color: $new-color;
     }
 }
 
@@ -69,8 +71,8 @@ nav{
 }
 
 .active{
-    background: $grey-text;
-    color: white;
+    background: $champagne;
+    color: $raisin;
     padding: 1rem 3rem;
     border-radius: 2rem;
 }
